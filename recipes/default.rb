@@ -39,4 +39,5 @@ end
 
 chef_gem "libarchive-static" do
   version "1.0.5"
+  compile_time false
 end
