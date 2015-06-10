@@ -35,7 +35,6 @@ else
   Chef::Application.fatal! "[libarchive] unsupported platform family: #{node[:platform_family]}"
 end
 
-chef_gem "libarchive-ruby" do
-  version "0.0.3"
+chef_gem "libarchive-static" do
   compile_time false
 end
